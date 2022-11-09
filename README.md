@@ -1,2 +1,2 @@
-# surface-and-underwater-travesability-mapping
+# surface-and-underwater-traversability-mapping
 thesis topic
