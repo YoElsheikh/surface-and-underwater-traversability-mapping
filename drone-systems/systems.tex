@@ -4,21 +4,49 @@
 
 \usepackage{graphicx}
 
+\usepackage[dvipsnames]{xcolor}
+
 \begin{document}
+	
+	**compile and then press F7 for the embedded pdf**
 	
 \section{Roboat - roboat.org -} 
 
+Roboat is an autonomous boat that is used to realize a responsive, in-demand, infrastructure. The applicatins of Roboat include passenger transportation, garbage collection and package delivery. Additionally units of Roboat can join together to create an on-demand infrastructure such as bridges in water canals. These activities are carried out, as the case with autonomous cars, while simultaneously collecting data about the city. 
+
+\subsection{Features}
+
+\textbf{Obstacle Avoidance}: including navigation and heading with robustness to external environment factors, such as wind and etc. 
+\\
+\textbf{Automated Docking}: it is able to navigate and latch itself to a docking station via a set of robotic arms (for latching)
+\\
+\textbf{Different Scales} the system is available in a 1/4 scale, a half-scale and a full-scale 
+
+\subsection{Associated Publications}
+\textbf{Robust Place Recognition using an Imaging Lidar, 2021 in IEEE ICRA}:
+
+A rotation invariant method is proposed that leverages 3D point clouds generated from a Lidar. The intensity of the point cloud provided by the lidar is projected and an intensity image is then extracted. ORB features are then extracted from the image and are then encoded into a "bag-of-words" vector using DBoW on a pre-trained visual vocabulary. 
+\\
+\textcolor{gray}{- To represent an image using BoW "Bag of Words" a document is to be generated form the image, i.e. the image has to somehow be represented as words that will make up the document, three steps are required: feature detection, feature description (or feature representation with stuff like SIFT) and codebook generation BoW can also be defined as a histogram representation based on independent features, for more see the paper:
+\\ http://www.cs.nott.ac.uk/~pszqiu/webpages/Papers/ColorPatternRecognition.pdf -}
+\\
+The vector, used to identify the point cloud, is inserted into a database that is maintained by DBoW for fast place recognition queries and then a returned candidate is thrown. Several techniques such as PnP (Perspective-n-Point)?? and RANSAC are used to minimize the reprojection error of the visual features in 2D image space. Rotation invariance is realised via combining readings from both a Lidar and a camera. An evaluation of the proposed method is carried out on various datasets. 
+\\
+\textbf{Roboat II: A Novel Autonomous Surface Vessel for Urban Environments, 2020 in EEE/RSJ}
+\\
+\textbf{An Adaptive Large Neighbourhood Search for Real-Time Waste Collection
+	Inventory Routing with Autonomous Vessels, 2020 in hEart}
 
 
 	
-press F7 for the embedded pdf
-\section{Drone Websites}
 
-roboat.org
-clearbot.org
-tormem.org
-mas400.com
-oceanalpha.com
-Clean Path Robotics --> Heron USV
+\section{Websites}
+
+roboat.org \\
+clearbot.org \\
+tormem.org \\
+mas400.com \\
+oceanalpha.com \\
+Clean Path Robotics- Heron USV
 
 \end{document}
