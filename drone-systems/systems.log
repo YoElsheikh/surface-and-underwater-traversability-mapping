@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.19)  16 NOV 2022 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.19)  16 NOV 2022 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,9 +208,14 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Overfull \hbox (12.66742pt too wide) in paragraph at lines 28--39
+Overfull \hbox (12.66742pt too wide) in paragraph at lines 28--38
 \OT1/cmr/m/n/10 http://www.cs.nott.ac.uk/ pszqiu/webpages/Papers/ColorPatternRe
 cognition.pdf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--38
+
  []
 
 [1
@@ -219,34 +224,77 @@ cognition.pdf
 <roboatII-HW.png, id=9, 381.55452pt x 224.41737pt>
 File: roboatII-HW.png Graphic file (type png)
 <use roboatII-HW.png>
-Package pdftex.def Info: roboatII-HW.png  used on input line 45.
+Package pdftex.def Info: roboatII-HW.png  used on input line 43.
 (pdftex.def)             Requested size: 190.7768pt x 112.2084pt.
+<roboat-autonomy-framework.png, id=10, 499.67323pt x 355.2641pt>
+File: roboat-autonomy-framework.png Graphic file (type png)
+<use roboat-autonomy-framework.png>
+Package pdftex.def Info: roboat-autonomy-framework.png  used on input line 53.
+(pdftex.def)             Requested size: 249.836pt x 177.6316pt.
 
-Overfull \hbox (1.1134pt too wide) in paragraph at lines 53--54
+Overfull \hbox (1.1134pt too wide) in paragraph at lines 61--65
 \OT1/cmr/bx/n/10 Col-lec-tion In-ven-tory Rout-ing with Au-tonomous Ves-sels, 2
-020 in hEart 
+020 in hEart
  []
 
-[2 <./roboatII-HW.png (PNG copy)>] (./systems.aux) ) 
+[2 <./roboatII-HW.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
+
+Overfull \hbox (33.19127pt too wide) in paragraph at lines 77--77
+\OT1/cmr/bx/n/14.4 for Ma-rine En-vi-ron-ment Mon-i-tor-ing) - tarmem.org
+ []
+
+<tarmem-landing.png, id=19, 401.75903pt x 108.02463pt>
+File: tarmem-landing.png Graphic file (type png)
+<use tarmem-landing.png>
+Package pdftex.def Info: tarmem-landing.png  used on input line 88.
+(pdftex.def)             Requested size: 401.75806pt x 108.02434pt.
+[3 <./roboat-autonomy-framework.png (PNG copy)>]
+<tarmem-landing-platform.png, id=23, 301.51355pt x 140.73631pt>
+File: tarmem-landing-platform.png Graphic file (type png)
+<use tarmem-landing-platform.png>
+Package pdftex.def Info: tarmem-landing-platform.png  used on input line 94.
+(pdftex.def)             Requested size: 301.5128pt x 140.73596pt.
+<tarmem-pattern-formation.png, id=24, 191.9429pt x 89.00621pt>
+File: tarmem-pattern-formation.png Graphic file (type png)
+<use tarmem-pattern-formation.png>
+Package pdftex.def Info: tarmem-pattern-formation.png  used on input line 109.
+(pdftex.def)             Requested size: 191.94241pt x 89.00598pt.
+ [4 <./tarmem-landing.png (PNG copy)> <./tarmem-landing-platform.png (PNG copy)
+>]
+Overfull \hbox (86.26396pt too wide) in paragraph at lines 116--116
+[]\OT1/cmr/bx/n/12 Associated Pub-li-ca-tions https://www.tarmem.org/publicatio
+ns.html 
+ []
+
+[5 <./tarmem-pattern-formation.png (PNG copy)>] (./systems.aux) ) 
 Here is how much of TeX's memory you used:
- 2591 strings out of 494798
- 34003 string characters out of 6176799
- 99660 words of memory out of 5000000
- 5912 multiletter control sequences out of 15000+600000
+ 2632 strings out of 494798
+ 34905 string characters out of 6176799
+ 98692 words of memory out of 5000000
+ 5946 multiletter control sequences out of 15000+600000
  7885 words of font info for 29 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,8n,35p,814b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb>
-Output written on systems.pdf (2 pages, 203482 bytes).
+ 41i,8n,35p,814b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb>
+Output written on systems.pdf (5 pages, 389768 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
