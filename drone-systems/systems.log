@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.19)  9 NOV 2022 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.19)  16 NOV 2022 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,23 +215,38 @@ cognition.pdf
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./systems.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<roboatII-HW.png, id=9, 381.55452pt x 224.41737pt>
+File: roboatII-HW.png Graphic file (type png)
+<use roboatII-HW.png>
+Package pdftex.def Info: roboatII-HW.png  used on input line 45.
+(pdftex.def)             Requested size: 190.7768pt x 112.2084pt.
+
+Overfull \hbox (1.1134pt too wide) in paragraph at lines 53--54
+\OT1/cmr/bx/n/10 Col-lec-tion In-ven-tory Rout-ing with Au-tonomous Ves-sels, 2
+020 in hEart 
+ []
+
+[2 <./roboatII-HW.png (PNG copy)>] (./systems.aux) ) 
 Here is how much of TeX's memory you used:
- 2565 strings out of 494798
- 33718 string characters out of 6176799
- 98652 words of memory out of 5000000
- 5896 multiletter control sequences out of 15000+600000
- 5158 words of font info for 19 fonts, out of 8000000 for 9000
+ 2591 strings out of 494798
+ 34003 string characters out of 6176799
+ 99660 words of memory out of 5000000
+ 5912 multiletter control sequences out of 15000+600000
+ 7885 words of font info for 29 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,5n,35p,503b,121s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on systems.pdf (2 pages, 53699 bytes).
+ 41i,8n,35p,814b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb>
+Output written on systems.pdf (2 pages, 203482 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
