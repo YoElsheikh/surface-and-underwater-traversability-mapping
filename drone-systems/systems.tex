@@ -116,7 +116,7 @@ The aim of the ongoing project is to develop a team of autonomous robots, consis
 \subsection{Associated Publications https://www.tarmem.org/publications.html}
 
 \textbf{Data sharing and assimilation in multi-robot systems for environment mapping in 18th International Conference on Informatics in Control, Automation and Robotics (ICINCO)}
-
+ 
 In this publication there is a multi-robot system that has the goal of jointly mapping the spatial field, thus speeding up the mapping process with the deployment of several robots that jointly coordinate.  
 
 Under the assumption that the planning and control modules are fully distributed (as well as the connection is shared through an ad hoc network), the paper aims to solve address the coordination problem to maintain a shared view of the mapping process. Subsequently, this leads to reducing overlap \footnote{i think this is related to the mosaic of the mapping process} and generally optimizing joint information. 
@@ -130,16 +130,50 @@ A main challenge is the scarcity of sampling points to be taken, and as such the
 \textbf{Spatially distributed missions with heterogeneous multi-robot teams in IEEE Access}
 The paper provides a model that assigns tasks to agents (heterogeneous robot subsystems), namely, task selection, allocation, scheduling, routing and control of the agent over time. Hence developing a system-level plan to undertake these tasks. \footnote{Not sure if this is related to the work on mapping and traversability mapping, discuss it with Hannan, is it is, resort back to reading the paper, it's quite long}
 
-\textbf{Multi-robot informative path planning using a leader-follower architecture in IEEE International Conference on Robotics and Automation (ICRA)}
+\vspace{20pt} 
 
+\textbf{Multi-robot informative path planning using a leader-follower architecture in IEEE International Conference on Robotics and Automation (ICRA)}
 This paper is related to the first paper "Data sharing and assimilation in multi-robot systems for environment mapping in 18th International Conference on Informatics in Control, Automation and Robotics (ICINCO)"
+
+\vspace{5pt}
+
+\textbf{\textit{The goal of work in this paper is to develop novel path planning methods that jointly guide the team of robots to where best to sample the data with the end-goal being to optimize map accuracy. It is assumed that the robots are equipped with echosounders that generate bathymetric maps}} 
+\begin{figure}[htbp]
+	\centerline{\includegraphics[scale=0.4]{Echo_Sounding_USN.jpg}}
+	\caption{Bathymetric map, Wikipedia page on Echo Sounding}
+	\label{fig6}
+\end{figure}
+
+
+
+
+\vspace{5pt}
+
+Many factors lead to erroneous map generation, namely:
+ \begin{itemize}
+ 	\item noise in measurements 
+ 	\item time budget restriction
+ 	\item unpredictable and possibly harsh navigation conditions
+ 	\item communication 
+ \end{itemize}
+
+\vspace{5pt}
 
 The team mission is modeled as a joint informative path planning problem that is tackled using a leader-follower architecture. The leader first identifies a convex containment region (this entails defining a plan for the team to go to the sampling areas, which are the most informative according to the leader, and then also plan traveling through the sampling areas; considering environmental constraints as well as communication constraints), this region is to be sampled by the rest of the agents in the team. Next using a method that combines Bayesian optimization and Monte Carlo simulation distinct sampling regions are identified and assigned to the followers. Each follower independently solves an orienteering problem to find a collision-free path maximizing information gain. To ensure that the sampling is directed towards the most informative regions, a team-level replanning is developed. 
 The validity of the algorithm is further confirmed experimentally to confirm the ability of map estimation. 
 
-for path planning: tackle MRS scenarios of informative path
-planning [4], [5] (IPP), where a robot team mission is to plan robot paths such that the potentially largest amount of information is jointly extracted along the paths while respecting given constraints.
+\textbf{\textit{for path planning}}: the authors tackle MRS (Multi Robot System) scenarios of informative path
+planning (IPP), where a robot-team mission is to plan robot paths such that the potentially largest amount of information is jointly extracted along the paths while respecting given constraints, i.e. jointly guide the team of robots to where best to sample the data with the end-goal being to optimize map accuracy.
+\vspace{5pt}
 
+\textbf{\textit{for map generation}}:
+it is assumed that measures and the fluctuations in the target map are spatially correlated and might evolve slowly over time defined as spatially-correlated stochastic process (is treated as a stationary process). Usually the most fitting it to use a GP (Gaussian Process) as a representation model for the ground-truth map with the sensor data acquired so far en route. 
+
+\vspace{5pt}
+
+\textbf{Map learning via adaptive region-based sampling in multi-robot systems}
+This publication is available in the book or the journal document but not elsewhere. From the abstract it sounds like it has the same content as the previous paper. Mainly path planning with regard to the Bayesian and Monte Carlo simulation -- leader-follower architecture -- and orienteering strategy. 
+ 
 
 
 
